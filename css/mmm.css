@@ -1,7 +1,13 @@
 
-body
+body.mmm
 {
 	background-color: gray;
+}
+
+body.information
+{
+	background-color: white;
+	text-align: center;
 }
 
 div.container
@@ -55,4 +61,41 @@ button.highlighted
 div.content
 {
 	width:660px;
+}
+
+div.information
+{
+	margin-left: 111px;
+	text-align: left;
+}
+
+p.signature
+{
+    text-indent: 50px;
+}
+
+ul
+{
+	list-style-type: none;
+	-webkit-padding-start: 40px;
+}
+
+ul li:before
+{
+	content: " - ";
+}
+
+ol
+{
+	list-style-type: none;
+}
+
+ol li
+{
+	list-style-type:lower-alpha;
+}
+
+h2.supportheader
+{
+	text-align: center;
 }

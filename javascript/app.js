@@ -4,7 +4,7 @@ $(document).ready(
     var highlightedClassName = ' highlighted';
     var disabledClassName =  'disabled';
 
-    $(".returnToCoverPage").click(function ReturnToCoverPageClick()
+    $(".home").click(function Home()
     {
       window.location='index.html';
     });
