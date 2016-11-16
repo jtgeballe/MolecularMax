@@ -7,6 +7,7 @@ body.mmm
 body.information
 {
 	background-color: white;
+	color: #808000;
 	text-align: center;
 }
 
@@ -69,25 +70,34 @@ div.information
 	text-align: left;
 }
 
+p
+{
+	color: #808000;
+}
+
 p.signature
 {
-    text-indent: 50px;
+    text-indent: 2.5em;
 }
 
 ul
 {
 	list-style-type: none;
-	-webkit-padding-start: 40px;
+	display: list-item;
+	-webkit-padding-start: 2em;
 }
 
-ul li:before
+ul > li:before
 {
-	content: " - ";
+	content: "-";
+	margin-left: -1.1em;
+	padding: 0em .25em 0em .25em;
 }
 
 ol
 {
 	list-style-type: none;
+	-webkit-padding-start: 2em;
 }
 
 ol li
