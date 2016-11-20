@@ -35,10 +35,7 @@ button.navigation
 	display: block;
 	margin: 0.3125em 0.4375em 0.3125em 0.25em;
   background-color: white;
-	border-bottom-width: 0em;
-	border-bottom-style: none;
-	border-top-width: 0em;
-	border-top-style: none;
+	border-style: none;
 	moz-border-radius: 0.3125em;
 	-webkit-border-radius: 0.3125em;
 	-webkit-appearance: button;
