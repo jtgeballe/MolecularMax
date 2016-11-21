@@ -39,7 +39,7 @@ button.navigation
 	moz-border-radius: 0.3125em;
 	-webkit-border-radius: 0.3125em;
 	-webkit-appearance: button;
-	width: 7.625em;
+	width: 6.6875em;
 }
 
 button.disabled, button.disabled:hover {
