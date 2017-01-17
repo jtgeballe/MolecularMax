@@ -83,5 +83,17 @@ $(document).ready(
       $(".pagebutton")[index].click();
     });
 
+      var originalY = $('#nav').offset().top;
+
+        $(window).on('scroll', function(event) {
+            var scrollTop = $(window).scrollTop();
+
+            $('#nav').stop(false, false).animate({
+                top: scrollTop < originalY
+                        ? 0
+                        : scrollTop - originalY + 20 // top margin.
+            }, 0); // This value controls the animation.
+        });
+
     EnableButton();
 });
