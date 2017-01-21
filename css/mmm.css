@@ -59,7 +59,13 @@ button.highlighted
 
 div.content
 {
+	text-align: center;
 	width:41.25em;
+}
+
+div.centerinformation
+{
+	text-align: center;
 }
 
 div.information
@@ -106,4 +112,15 @@ ol li
 h2.supportheader
 {
 	text-align: center;
+}
+
+div.bigscroll
+{
+	text-align: center;
+}
+
+button.bigscroll
+{
+	margin-left: 22em;
+	margin-bottom: .5em;
 }
